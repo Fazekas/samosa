@@ -25,9 +25,7 @@ public class UserMapper implements EntityModelMapper<UserEntity, UserModel> {
         userEntity.setLocation(user.getLocation());
         userEntity.setPassword(user.getPassword());
         userEntity.setNumSelection(user.getNumSelection());
-       // userEntity.setFoodPreferenceEntities(user.getFoodPreferences());
-//
-//        Set<FoodPreferenceEntity> foodPreferenceEntities = new HashSet<>();
+
 
 
 
